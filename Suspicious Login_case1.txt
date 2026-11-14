@@ -1,0 +1,13 @@
+Suspicious Login
+
+Indicators include:
+Suspicious source IP address 192.168.1.100 is generating multiple rapid failed login attempts against root, admin, and user accounts.
+
+Immediate action:
+Block suspicious IP addresses 192.168.1.100 and 10.0.0.45 at the firewall immediately.
+
+Severity Level:
+Critical (Confirmed unauthorized root-level access via brute-force and privilege escalation, combined with active credential harvesting via phishing).
+
+Recommendation:
+Enforce Multi-Factor Authentication (MFA) across all administrative and user accounts.
